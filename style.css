@@ -1,0 +1,161 @@
+body {
+    background-color: #FFF0F5;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #af586b;
+    margin: 24px 0;
+}
+
+header {
+    text-align: center;
+    padding: 2px 1px;
+    background-color: #ad4163;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 60 px;
+}
+
+header p {
+    font-size: 25px;
+    color: #FFDDEE;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 60px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    text-align: center;
+    font-size: 15px;
+    color: #0D5661;
+    margin-bottom: 12px;
+}
+
+img.main-photo {
+    display: block;
+    margin: 0 auto 50px;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding-left: 0px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+ul img {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 15px;
+    color: #888;
+}
+
+a {
+    color: #D0104C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #51b6b6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(173, 50, 50, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    text-align: center;
+    background-color: #9c1f47;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #fffbfb;
+}
+
+tr:hover {
+    background-color: #ca4a4a;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+caption {
+    font-size: 24px;
+    margin: 10px;
+    font-weight: bold;
+    color: #974848;
+}
+
+nav ul {
+    list-style: none;
+    margin: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
