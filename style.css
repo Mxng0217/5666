@@ -1,0 +1,175 @@
+body {
+    background-color: #FFF0F5;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #af586b;
+    margin: 24px 0;
+}
+
+header {
+    text-align: center;
+    padding: 2px 1px;
+    background-color: #ad4163;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 60 px;
+}
+
+header p {
+    font-size: 26px;
+    color: #FFDDEE;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 60px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.school {
+    text-align: center;
+    font-size: 17px;
+    color: #0D5661;
+    margin-bottom: 12px;
+}
+
+img.main-photo {
+    display: block;
+    margin: 0 auto 50px;
+    border-radius: 10px;
+    height: auto;
+}
+
+ol,
+ul {
+    color: #0D5661;
+    font-size: 17px;
+    list-style-type: none;
+    margin: 25px 0;
+    padding-left: 5x;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+ul img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 10px;
+    color: #888;
+}
+
+a {
+    color: #D0104C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0D5661;
+}
+
+nav ul {
+    list-style: none;
+    margin: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.ig-img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 10%;
+}
+
+.tiktok-container {
+    display: flex;
+    /* 使用 Flexbox 排列子元素 */
+    flex-wrap: wrap;
+    /* 如果空間不夠，允許自動換行 */
+    gap: 20px;
+    /* 每個影片區塊之間的間距為 20px */
+    justify-content: center;
+    /* 讓影片水平置中排列 */
+}
+
+.tiktok-embed {
+    flex: 1 1 300px;
+    /* 
+    Flexbox 設定：
+    1 = 成長比例（允許變寬）、
+    1 = 收縮比例（允許變窄）、
+    300px = 初始寬度
+  */
+    max-width: 325px;
+    /* 每個影片區塊最大寬度 */
+    max-height: 50%;
+    min-width: 200px;
+    /* 每個影片區塊最小寬度（避免太小） */
+}
+
+.imgimg {
+    display: flex;
+    flex-wrap: wrap;
+    /* 換行 */
+    justify-content: center;
+    /* 水平置中 */
+    gap: 60px;
+    /* 圖片之間的間距 */
+    padding: 50px;
+}
+
+.imgimg img {
+    width: 300px;
+    height: 450px;
+    border: 5px solid #c5cfb1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imgimg img:hover {
+    transform: scale(2.05);
+}
